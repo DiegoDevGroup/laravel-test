@@ -12,6 +12,7 @@ Again, there isn't anything "tricky" about this repo, the application should run
 
 ## Basic Task
 
+- [ ] Fork this repo into your Github account
 - [ ] Get application up and running.
 - [ ] Fix this list so it justify to the left without losing the format of the rest of page.
 - [ ] Go to route /products and tell me specifically what is wrong, if anything, and fix it.
@@ -42,3 +43,4 @@ Again, there isn't anything "tricky" about this repo, the application should run
 ## Submit your repo
 
 Please copy your `.env` file to `.env.app` and commit it to your repo.
+Open a Pull Request back to this repo with your changes when you are done. 
