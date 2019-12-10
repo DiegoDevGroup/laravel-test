@@ -11,10 +11,16 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::view('/', 'welcome');
 
-Route::get('test', 'TestController@test');
+Route::get('products', 'ProductController@indx');
 
-Route::post('test2', 'TestController@post');
+Route::get('cart/{id}', 'ProductController@cart')->name('cart');
+
+Route::get('checkout', 'ProductController@checkout')->name('checkout');
+
+Route::post('specials', 'ProductController@specials');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
