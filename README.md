@@ -10,8 +10,6 @@ If you are using this repo as part of the interview process for the [DiegoDev Gr
 
 Again, there isn't anything "tricky" about this repo, the application should run on a system configured to meet requirements of a basic Laravel application. No need to install any other special PHP Extensions. Most of the task can be completed by simply running the Laravel internal server. Some of the task require an external datastore(*) such as MySQL or Postgres. * SQLite should work for many of the task expect for task requiring UUID in the Advanced section. 
 
-For your convenience I am adding a Docker solution and accompanying script to make using Docker as simple as possible. This is not part of the test and should be pretty simple to set up and run. Check [Docker Setup Section](#docker-setup) for instructions.
-
 ## Basic Task
 
 - [ ] Get application up and running.
@@ -44,8 +42,3 @@ For your convenience I am adding a Docker solution and accompanying script to ma
 ## Submit your repo
 
 Please copy your `.env` file to `.env.app` and commit it to your repo.
-
-
-
-# Docker Setup
-
