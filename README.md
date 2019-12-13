@@ -41,5 +41,5 @@ Again, there isn't anything "tricky" about this repo, the application should run
 
 ## Submit your repo
 
-Please copy your `.env` file to `.env.app` and commit it to your repo.
+Please copy your `.env` file to `.env.app` and commit it to your repo. Add any answers to the README file. 
 ZIP up your repo and email it to me. 
